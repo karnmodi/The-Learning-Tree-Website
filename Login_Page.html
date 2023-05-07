@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | THE LEARNING TREE</title>
+
+    <link rel="stylesheet" href="CSS/Login.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header_left">
+                <a href="Homepage.html">
+                <div class="The-Learning-Tree-LOGO">
+                    <img src="Images/Website Logo.png" alt="">
+                </div>
+                </a>
+            </div>
+
+            <div class="header_Right">
+                <a href="Homepage.html">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="Login">
+        <div class="body_header">
+            <a href="Sign_Up.html">
+                <div class="signup"><h1>SIGN UP</h1></div>
+            </a>
+            <div class="login"><h1>LOGIN</h1></div>
+        </div>
+
+        <div class="form">
+
+        
+            <form>
+                <div class="content">
+
+                    <span id="haveAnAccount">Already have an Account?</span> 
+                    <span id="SMCreds">Use Social Media Credentials </span> 
+
+                    <div class="direct_Login">
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S839380943%3A1683496886456016&authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwij_9zq1sj-AhXwVaQEHVe2CJ4QPAgI&ec=GAlAmgQ&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank">
+                            <img src="Images/Google logo PNG.png" alt="Google Authentication" id="Google-Logo">
+                        </a>
+
+                        <a href="https://github.com/login" target="_blank">
+                            <img src="Images/Github Logo PNG.png" alt="Github Authentication" id="Github-Logo">
+                        </a>
+
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <img src="Images/Facebook Logo PNG.png" alt="Facebook Authentication" id="Facebook-Logo"></a>
+                    </div>
+
+                    <span id="Or">------------------ OR ------------------</span>
+
+                    <label for="username" class="Username_lbl">Username or Email Address : *</label>
+                    <input type="text" id="username" name="username" required class="Username_txt">
+                    <label for="password" class="Password_lbl">Password *</label>
+                    <input type="password" id="password" name="password" required class="Password_txt">
+
+
+                    <button type="submit">Login</button>
+                </div>  
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Sign Up | THE LEARNING TREE</title>
+
+    <link rel="stylesheet" href="CSS/Sign_Up.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header_left">
+                <a href="Homepage.html">
+                <div class="The-Learning-Tree-LOGO">
+                    <img src="Images/Website Logo.png" alt="">
+                </div>
+                </a>
+            </div>
+
+            <div class="header_Right">
+                <a href="Homepage.html">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="Signup">
+        <div class="body_header">
+            <div class="signup"><h1>SIGN UP</h1></div>
+
+            <a href="Login_Page.html">
+                <div class="login"><h1>LOGIN</h1></div>
+            </a>
+        </div>
+
+        <div class="form">
+
+        
+            <form>
+                <div class="content">
+
+                    <span id="CreateLine">Create Your Account</span> 
+                    <span id="SMCreds">Use Social Media Credentials </span> 
+
+                    <div class="direct_Login">
+                        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwij_9zq1sj-AhXwVaQEHVe2CJ4QPAgI" target="_blank">
+                            <img src="Images/Google logo PNG.png" alt="Google Authentication" id="Google-Logo">
+                        </a>
+
+                        <a href="https://github.com/" target="_blank">
+                            <img src="Images/Github Logo PNG.png" alt="Github Authentication" id="Github-Logo">
+                        </a>
+
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <img src="Images/Facebook Logo PNG.png" alt="Facebook Authentication" id="Facebook-Logo"></a>
+                    </div>
+
+                    <span id="Or">------------------ OR ------------------</span>
+
+                    <label for="username" class="Username_lbl"> TLT <b>(The Learning Tree) </b> Username : *</label>
+                    <input type="text" id="username" name="username" required class="Username_txt" placeholder="Username">
+
+                    <div class="Username_Note">
+                        Username Example: <br>
+                        john123 or john_123
+                        <ul>
+                            <li>Should start with a lowercase letter from (a-z)</li>
+                            <li>Must be between 4 to 14 characters long</li>
+                            <li>Must end with a letter (a-z) or number (0-9)</li>
+                            <li>Must not contain a sequence of two or more underscores (_)</li>
+                            <li>Can contain lowercase letters from (a-z), digits or underscores</li>
+                            <li>Please do not keep an explicit or inappropriate name/username. It may lead to suspension of your account</li>
+                        </ul>
+                        Note: Choose wisely your username, for you will not be able to change it later.
+                    </div>
+
+                    <label for="email" class="Email_lbl"> Email: *</label>
+                    <input type="text" id="email" name="email" required class="email_txt" placeholder="Email Address">
+
+                    <div class="Email_Note">
+                        Email <br>
+                        <ul>
+                            <li>Remember the one we created back in college? Yes, that weird one.</li>
+                            <li>This will be used for all our communication with you, so be careful in filling this.</li>
+                            <li>We will also send a verification code on this, as soon as you finish registering.</li>
+                        </ul>
+                    </div>
+
+                    <label for="password" class="Password_lbl">Password *</label>
+                    <input type="password" id="password" name="password" required class="Password_txt" placeholder="Password">
+
+                    <div class="Password_Note">
+                        Password should have at least <br><br>
+                        <ul>
+                            <li>8 characters</li>
+                            <li>one uppercase letter [A - Z]</li>
+                            <li>one lowercase letter [a - z]</li>
+                            <li>one digit [0 - 9]</li>
+                            <li>one character which isn't a digit or a letter</li>
+                        </ul>
+                    </div>
+
+                    <label for="country">Country: </label>
+                    <select id="country" name="country">
+                        <option value="Empty" selected> </option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+
+                    <label for="agree" id="agree_lbl">
+                    <input type="checkbox" name="agree" value="yes" id="agree_txt">
+                        I agree to the <a href="">terms</a>  and  <a href="none">conditions</a>
+                    </label>
+
+                    <button type="submit">REGISTER</button>
+                </div>  
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+
+        <div class="footer_left">
+            <a href="www.tlt.com"></a>
+            <span>www.tlt.com</span>
+        </div>
+    
+        <div class="footer_right">
+            <span>Follow us on </span>
+        </div>
+    </div>
+
+</body>
+</html>
