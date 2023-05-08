@@ -62,5 +62,29 @@ function ToggleExercises(){
     TutorialEl.classList.remove("text-white")
     ReferencesEl.classList.remove("bg-black")
     ReferencesEl.classList.remove("text-white")
-    // ReferencesEl.classList.remove("text-white")
 }
+
+
+const lightLikeBtn = document.getElementById("Light");
+const darkLikeBtn = document.getElementById("Dark");
+
+
+lightLikeBtn.addEventListener("click", function() {
+    if (darkLikeBtn.style.display === "none") {
+      darkLikeBtn.style.display = "block";
+      lightLikeBtn.style.display = "none";
+    } else {
+      darkLikeBtn.style.display = "none";
+      lightLikeBtn.style.display = "block";
+    }
+  });
+
+  darkLikeBtn.addEventListener("click", function() {
+    if (lightLikeBtn.style.display === "none") {
+      lightLikeBtn.style.display = "block";
+      darkLikeBtn.style.display = "none";
+    } else {
+      lightLikeBtn.style.display = "none";
+      darkLikeBtn.style.display = "block";
+    }
+  });

@@ -239,6 +239,101 @@ header {
     }
 }
 
+
+.Nested_Navigation_Container{
+    background-color: var(--bg-black);
+    /* padding: 10px; */
+    color: white;
+    position: relative;
+}
+
+.Nested_Navigation_Close_Btn{
+    position: absolute;
+    right: 0;
+
+}
+
+.Nested_Navigation_Close_Btn button{
+    font-size: 30px;
+    padding: 30px; 
+    background-color: var(--bg-black);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Nested_Navigation_Close_Btn button:hover{
+    background-color: #e7e7e7;
+    color: var(--bg-black);
+    
+}
+
+.Nested_Navigation_Content{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.Nested_Navigation_Content h1{
+    margin: 0;
+    color: var(--bg-yellow);
+}
+
+.Nested_Navigation_Content_Data{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(100px, 1fr));
+}
+
+.Nested_Navigation_Item{
+    margin-right: 10px;
+}
+
+.Nested_Navigation_Item h2{
+    color: var(--bg-yellow);
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.Nested_Navigation_Item a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 3px;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Nested_Navigation_Item a:hover{
+    background-color: var(--bg-Header-white);
+    color: var(--bg-black);
+    border-radius: 5px;
+    font-weight: 700;
+}
+.Nested_Navigation_hidden{
+    display: none;
+}
+
+.Nested_Navigation_hidden_Tutorials{
+    display: none;
+}
+.Nested_Navigation_hidden_References{
+    display: none;
+}
+.Nested_Navigation_hidden_Exercises{
+    display: none;
+}
+
+.bg-black{
+    background-color: var(--bg-black);
+}
+
+.text-white{
+    color: var(--bg-Header-white);
+    
+}
+
 #Sec-1{
     background-color: #282A35;
     padding: 90px 0 0px 0 ;
@@ -377,11 +472,6 @@ header {
     color:rgb(0, 255, 0);
 }
 
-#Sec-2{
-    height: 1000px;
-    background-color: #D9EEE1;
-}
-
 .Home_Images{
     position: absolute;
     top: 10px;
@@ -396,98 +486,215 @@ header {
     margin-right: 40px;
 }
 
-
-.Nested_Navigation_Container{
-    background-color: var(--bg-black);
-    /* padding: 10px; */
-    color: white;
-    position: relative;
+#Sec-2{
+    margin-top: 50px;
+    height: max-content;
+    margin-bottom: 70px;
+    /* height: 1000px; */
+    background-color: #D9EEE1;
 }
 
-.Nested_Navigation_Close_Btn{
+#Sec-2 .Sec-2_Left{
+    
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    right: 0;
-
+    margin-left: 250px;
+    justify-content: flex-end;
 }
 
-.Nested_Navigation_Close_Btn button{
-    font-size: 30px;
-    padding: 30px; 
-    background-color: var(--bg-black);
-    border: none;
-    color: white;
-    cursor: pointer;
+
+#Sec-2 span#Course_Name{
+    font-size: 90px;
+    font-weight: 600;
+    margin: 20px 0px 0px 30px;
 }
 
-.Nested_Navigation_Close_Btn button:hover{
-    background-color: #e7e7e7;
-    color: var(--bg-black);
+/* #Sec-2 span#Course_Description{
+    
+} */
+
+#Sec-2 .btns_Sec-2{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
     
 }
 
-.Nested_Navigation_Content{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-
-.Nested_Navigation_Content h1{
-    margin: 0;
-    color: var(--bg-yellow);
-}
-
-.Nested_Navigation_Content_Data{
-    display: grid;
-    grid-template-columns: repeat(4,minmax(100px, 1fr));
-}
-
-.Nested_Navigation_Item{
-    margin-right: 10px;
-}
-
-.Nested_Navigation_Item h2{
-    color: var(--bg-yellow);
-    margin-top: 30px;
-    font-weight: 300;
-}
-
-.Nested_Navigation_Item a{
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin: 3px;
-    padding: 5px;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.Nested_Navigation_Item a:hover{
-    background-color: var(--bg-Header-white);
-    color: var(--bg-black);
-    border-radius: 5px;
-    font-weight: 700;
-}
-.Nested_Navigation_hidden{
-    display: none;
-}
-
-.Nested_Navigation_hidden_Tutorials{
-    display: none;
-}
-.Nested_Navigation_hidden_References{
-    display: none;
-}
-.Nested_Navigation_hidden_Exercises{
-    display: none;
-}
-
-.bg-black{
-    background-color: var(--bg-black);
-}
-
-.text-white{
+#Sec-2 .btns_Sec-2 a#Learn_HTML{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--bg-blue);
     color: var(--bg-Header-white);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-decoration: none ;
+    font-weight: 600;
+}
+
+#Sec-2 .btns_Sec-2 a#HTML_References{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(4,170,109);
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    text-decoration: none ;
+}
+
+
+#Sec-2 .Sec-2_Right{
+    /* top: 0;
+    display:flex;    
+    justify-content: flex-end;
+    padding-left: 0;
+    /* right: 0; 
+    width: 650px;
+    height: 500px;
+    background-color: #282A35; */
+    
+    display:flex;
+    flex-direction: row-reverse; /* reverse the order of the flex items */
+    margin: 0px 35px 0 750px;
+    justify-content: flex-end;
+    align-items: center; /* align the items vertically */
+    width: 650px;
+    height: fit-content;
+    background-color: rgb(231,233,235);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+
+
+#Sec-2 .Sec-2_Right .Code_Preview{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    order: 1;
+    margin-left: 10px;
+}
+
+#Sec-2 .Sec-2_Right .Code_Preview .Code_Heading{
+    padding: 0px 0 10px 10px;
+    margin-top: 15px;
+    color: black;
+    font-size: 24px;
+    font-weight:500;
+}
+
+#Sec-2 .Sec-2_Right .Code_Preview .Code_Window{
+    width: 610px;
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    height: 300px;
+    background-color: white;
+    border-left: 5px solid var(--bg-blue);
+}
+
+#Sec-2 .Sec-2_Right .Code_Preview .Explore_button{
+    margin-left: 10px;
+    background-color: var(--bg-blue);
+    width: 250px;
+    padding:10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#Sec-2 .Sec-2_Right .Code_Preview .Explore_button a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+footer {
+    background-color: var(--bg-black);
+    height:450px;
+}
+
+footer .Footer_Title{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 80px;
+    padding-top: 50px;
+
+}
+
+footer .Footer_Title a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+footer .Footer_Title a:hover{
+    color: var(--bg-blue);
+}
+
+footer .Social_Icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    /* right: 50; */
+    padding-right: 100px;
+}
+
+footer .Social_Icons img{
+    width: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+footer .Social_Icons img:hover{
+    background-color: var(--bg-Header-white);
+    border-radius: 5px;
+}
+
+footer .Footer_Content{
+    justify-content: center;
+    text-align: center;
+    color: var(--bg-Header-white);
+    margin: 40px 80px 50px 80px;
+}
+
+footer .Like{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin-bottom: 50px;
+}
+
+footer .Like #Dark{
+    font-size: 50px;
+    color: var(--bg-blue);
+    display: none;
+    cursor: pointer;
+}
+
+footer .Like #Light{
+    font-size: 50px;
+    color: var(--bg-blue);
+    cursor: pointer;
+}
+
+footer .Footer_Bottom{
+    color: rgb(165, 165, 165); 
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+footer .Footer_Bottom #Design_By{
+    color: rgb(165, 165, 165); 
+    margin-left: 700px;
+    font-size: 15px;
     
 }
 
