@@ -384,10 +384,11 @@ header {
 
 .Home_Images{
     position: absolute;
-    top: 130px;
-    right: 35px;
+    top: 10px;
+    right: 15px;
     display: flex;
     justify-content: flex-end;
+    pointer-events: none;
 }
 
 .Home_Images img{
