@@ -441,7 +441,7 @@ header {
     display:flex;    
     justify-content: flex-end;
 
-    margin: 00px 35px 0 130px;
+    margin: 00px 115px 0 130px;
     padding-left: 0;
     border-radius: 30px;
     right: 0;
@@ -481,8 +481,8 @@ header {
     pointer-events: none;
 }
 
-.Home_Images img{
-    margin-top: 100px;
+.Home_Images svg{
+    margin-top: 50px;
     margin-right: 40px;
 }
 
