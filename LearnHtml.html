@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="header_Left">
             <a href="#" class="Menu_btns">
                 <div class="The-Learning-Tree-LOGO">
@@ -250,151 +250,314 @@
 
         <div class="Left_Hand_Content">
 
-            <div class="Course_Content">
-                <div class="Course_Header">
-                    <span id="Introduction_Of_HTML"> HTML</span>
-                </div>
+            <section id="Introduction_Of_HTML">
 
-                <div class="Course_Description">
-                    <blockquote> HTML, short for HyperText Markup Language, is the foundation of all web pages. It was
-                        created by Tim Berners-Lee in 1993 to define the structure of a web page. Without it, you
-                        wouldn’t be able to organize text or add images or videos to your pages. HTML is the beginning
-                        of everything you need to know to make your first website</blockquote>
-                    <hr>
+                <div class="Course_Content">
+                    <div class="Course_Header">
+                        <span> HTML</span>
+                    </div>
 
-                </div>
-
-                <div class="Content_Header">
-                    <span>HTML Structure</span>
-                </div>
-
-                <div class="Content">
-                    <blockquote><span>HTML is organized into a family tree structure. HTML elements can have parents,
-                            grandparents,
-                            siblings, children, grandchildren, etc.</span></blockquote>
-                </div>
-
-                <div class="Code_Box">
-
-                    <div class="Code_Window">
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red">
-                                html</span><span class="tagcolor" style="color:white">&gt;</span></span>
-                        <br>
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>html<span class="tagcolor"
-                                style="color:white">&gt;</span></span>
-                        <br>
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>head<span class="tagcolor"
-                                style="color:white">&gt;</span></span>
-                        <br>
-                        <blockquote><span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                    style="color:white">&lt;</span>title<span class="tagcolor"
-                                    style="color:whitee">&gt;</span></span>
-                            <span style="color:white">Page Title</span>
-
-                            <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                    style="color:white">&lt;</span>/title<span class="tagcolor"
-                                    style="color:whiteue">&gt;</span></span>
-                        </blockquote>
-                        
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>/head<span class="tagcolor"
-                                style="color:whitee">&gt;</span></span>
-                        <br>
-                        <br>
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>body<span class="tagcolor"
-                                style="color:white">&gt;</span></span>
-                        <br>
-                        <blockquote>
-                            <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                    style="color:white">&lt;</span>h1<span class="tagcolor"
-                                    style="color:white">&gt;</span></span>
-
-                            <span style="color: white;">My First Heading</span>
-
-                            <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                    style="color:white">&lt;</span>/h1<span class="tagcolor"
-                                    style="color:white">&gt;</span></span>
-
-                            <br>
-                            <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                    style="color:white">&lt;</span>p<span class="tagcolor"
-                                    style="color:white">&gt</span></span>
-                            <span style="color:white">My First Paragraph</span>
-
-                            <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                    style="color:white">&lt;</span>/p<span class="tagcolor"
-                                    style="color:white">&gt;</span></span>
-
-                        </blockquote>
-                        
-
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>/body<span class="tagcolor"
-                                style="color:whitee">&gt;</span></span>
-
-                        <br>
-
-                        <span class="tagnamecolor" style="color:white"><span class="tagcolor"
-                                style="color:white">&lt;</span>/html<span class="tagcolor"
-                                style="color:whitee">&gt;</span></span>
+                    <div class="Course_Description">
+                        <blockquote> HTML, short for HyperText Markup Language, is the foundation of all web pages. It
+                            was
+                            created by Tim Berners-Lee in 1993 to define the structure of a web page. Without it, you
+                            wouldn’t be able to organize text or add images or videos to your pages. HTML is the
+                            beginning
+                            of everything you need to know to make your first website</blockquote>
+                        <hr>
 
                     </div>
 
+                    <div class="Content_Header">
+                        <span>HTML Structure</span>
+                    </div>
+
+                    <div class="Content">
+                        <blockquote><span>HTML is organized into a family tree structure. HTML elements can have
+                                parents,
+                                grandparents,
+                                siblings, children, grandchildren, etc.</span></blockquote>
+                    </div>
+
+                    <div class="Code_Box">
+
+                        <div class="Code_Window">
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;h1&gt;My First Heading&lt;/h1&gt;
+        &lt;p&gt;My First Paragraph&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+                        </div>
+
+                    </div>
+
+                    <div class="Content">
+                        The <span class="tagnamecolor" style="color:black;background-color: rgb(202, 202, 202);"><span
+                                class="tagcolor" style="color:black">&lt;</span>!DOCTYPE<span class="tagcolor"
+                                style="color:balck">&gt;</span></span> declaration tells the browser that a given file
+                        is a
+                        markup .html file and that a set of web
+                        standards must be applied to it. It is the first line of code that goes at the top of every HTML
+                        or
+                        XHTML file.
+                    </div>
+
+                    <div class="note">
+                        <b> Note: &nbsp</b> <span class="tagnamecolor"
+                            style="color:black;background-color: rgb(202, 202, 202);"><span class="tagcolor"
+                                style="color:black">&lt;</span>!DOCTYPE<span class="tagcolor"
+                                style="color:black">&gt;</span></span> is not an element or a tag.
+                    </div>
+
+                    <hr>
+                    <hr>
+
+            </section>
+
+            <section id="Basics_Of_HTML">
+                <div class="Course_Header">
+                    <span> Basics of HTML</span>
                 </div>
 
+                <div class="Course_Description">
+                    <blockquote> HTML Basics Includes details of div, Class, Id, and some tags which are useful in every
+                        HTML Code.</blockquote>
+                    <hr>
 
-            </div>
+                    <ol>
+                        <li>HTML uses tags to define elements within a webpage.</li>
+                        <li>Elements are the building blocks of HTML documents, made up of tags and their content.</li>
+                        <li>Attributes provide additional information about an element and are used within the opening
+                            tag of an element.</li>
+                        <li>HTML follows a hierarchical structure, with a top-level &lt<span
+                                style="color: red;">html</span>&gt element containing the &lt<span
+                                style="color: red;">head</span>&gt and &lt<span style="color: red;">body</span>&gt
+                            elements.</li>
+                        <li>A DTD declares the version of HTML being used, and comments can be used to annotate code.
+                        </li>
+                    </ol>
 
-            <div class="Content_Header">
-                Example Explained
-            </div>
+                </div>
+            </section>
 
-            <div class="Content">
-                <ul>
-                    <li>The <span class="tagnamecolor" style="color:brown; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span
-                                class="attributecolor" style="color:red">
-                                html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>
-                        declaration defines that this document is an HTML5 document.</li>
+            <section id="Classes_Ids">
 
-                    <li>The <span class="tagnamecolor" style="color:brown; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor"
-                                style="color:mediumblue">&gt;</span></span> element is the root element of an HTML
-                        page.</li>
+                <div class="Course_Header">
+                    <span>Classes & Ids </span>
+                </div>
 
-                    <li>The <span class="tagnamecolor" style="color:brown; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>head<span class="tagcolor"
-                                style="color:mediumblue">&gt;</span></span> element contains meta information about
-                        the HTML page.</li>
+                <div class="Content">
+                    <blockquote><span>Classes are HTML attributes used to select one or more elements for CSS styling or
+                            JavaScript purposes.</span></blockquote>
 
-                    <li>The <span class="tagnamecolor" style="color:brown; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>title<span class="tagcolor"
-                                style="color:mediumblue">&gt;</span></span> element specifies a title for the HTML
-                        page (which is shown in the browser's title bar or in the page's tab).</li>
 
-                    <li>The <span class="tagnamecolor" style="color:brown ; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor"
-                                style="color:mediumblue">&gt;</span></span> element defines the document's body, and
-                        is a container for all the visible contents, such as headings, paragraphs, images,
-                        hyperlinks, tables, lists, etc.</li>
+                    <span style="font-size: 23px; font-weight: 500;">For Styling</span>
+                    <br>
+                    <br>
+                    The class attribute is commonly used for assigning styles to one or more elements. Multiple classes
+                    can be assigned to a single element in a space-separated list. (e.g. class="class1 class2 class3").
+                    <br>
+                    <br>
+                    Inside the stylesheet, a class name is selected with the following syntax:
 
-                    <li>The <span class="tagnamecolor" style="color:brown; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor"
-                                style="color:mediumblue">&gt;</span></span> element defines a large heading.</li>
+                    <div class="Code_Box">
 
-                    <li>The <span class="tagnamecolor" style="color:brown; background-color: rgb(228, 228, 228);"><span
-                                class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor"
-                                style="color:mediumblue">&gt;</span></span> element defines a paragraph.</li>
-                </ul>
-            </div>
+                        <div class="Code_Window">
+                            <span style="color: red;">.class-name</span> <span style="color: white;">{<br>
+                                }</span>
+
+                            <br>
+                            <br>
+                            <span style="color: red;">#id-name</span> <span style="color: white;">{<br>
+                                }</span>
+
+                        </div>
+
+                    </div>
+
+                    A class selector is a name preceded by a period (.). <br><br>
+
+                    Below is some markup with an outer wrapper-div, containing a level 1 heading and three level 2
+                    sub-headings. The styling for the heading will be unique. However, all elements with the sub-heading
+                    class name received the same styling.
+
+                    <div class="Code_Box">
+
+                        <div class="Code_Window">
+                            <div class="token-line"><span class="token doctype punctuation"
+                                    style="color: gray;">&lt;!</span><span class="token doctype doctype-tag"
+                                    style="color: rgb(147, 149, 152);">DOCTYPE</span><span class="token doctype"
+                                    style="color: rgb(147, 149, 152);"> </span><span class="token doctype name"
+                                    style="color: rgb(147, 149, 152);">html</span><span
+                                    class="token doctype punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"></span><span class="token tag punctuation"
+                                    style="color: gray;">&lt;</span><span class="token tag"
+                                    style="color: rgb(234, 108, 139);">html</span><span class="token tag"
+                                    style="color: rgb(234, 108, 139);"> </span><span class="token tag attr-name"
+                                    style="color: rgb(180, 211, 83);">lang</span><span
+                                    class="token tag attr-value punctuation attr-equals"
+                                    style="color: gray;">=</span><span class="token tag attr-value punctuation"
+                                    style="color: gray;">"</span><span class="token tag attr-value"
+                                    style="color: rgb(180, 211, 83);">en</span><span
+                                    class="token tag attr-value punctuation" style="color: gray;">"</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">head</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span></div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">style</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span></div>
+                            <blockquote>
+                                <div class="token-line"><span class="token plain" style="color: white;"> .heading
+                                        {</span></div>
+                                <div class="token-line"><span class="token plain" style="color: white;">
+                                        background-color: lightcoral;</span>
+                                </div>
+                                <div class="token-line"><span class="token plain" style="color: white;"> }</span></div>
+                                <div class="token-line"><span class="token plain" style="display: inline-block;">
+                                    </span></div>
+                                <div class="token-line"><span class="token plain" style="color: white;"> #sub-heading
+                                        {</span></div>
+                                <div class="token-line"><span class="token plain" style="color: white;">
+                                        background-color: lightskyblue;</span>
+                                </div>
+                                <div class="token-line"><span class="token plain" style="color: white;"> margin:
+                                        5px;</span></div>
+                                <div class="token-line"><span class="token plain" style="color: white;"> }</span></div>
+                            </blockquote>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;/</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">style</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">title</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain" style="color: white;">Classes</span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;/</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">title</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;/</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">head</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">body</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span></div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">div</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);"> </span><span
+                                    class="token tag attr-name" style="color: rgb(180, 211, 83);">class</span><span
+                                    class="token tag attr-value punctuation attr-equals"
+                                    style="color: gray;">=</span><span class="token tag attr-value punctuation"
+                                    style="color: gray;">"</span><span class="token tag attr-value"
+                                    style="color: rgb(180, 211, 83);">wrapper-div</span><span
+                                    class="token tag attr-value punctuation" style="color: gray;">"</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">h1</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);"> </span><span
+                                    class="token tag attr-name" style="color: rgb(180, 211, 83);">class</span><span
+                                    class="token tag attr-value punctuation attr-equals"
+                                    style="color: gray;">=</span><span class="token tag attr-value punctuation"
+                                    style="color: gray;">"</span><span class="token tag attr-value"
+                                    style="color: rgb(180, 211, 83);">heading</span><span
+                                    class="token tag attr-value punctuation" style="color: gray;">"</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain" style="color: white;">Welcome
+                                    to Class!</span><span class="token tag punctuation"
+                                    style="color: gray;">&lt;/</span><span class="token tag"
+                                    style="color: rgb(234, 108, 139);">h1</span><span class="token tag punctuation"
+                                    style="color: gray;">&gt;</span><span class="token plain"></span>
+                            </div>
+                            <br>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">h2</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);"> </span><span
+                                    class="token tag attr-name" style="color: rgb(180, 211, 83);">id</span><span
+                                    class="token tag attr-value punctuation attr-equals"
+                                    style="color: gray;">=</span><span class="token tag attr-value punctuation"
+                                    style="color: gray;">"</span><span class="token tag attr-value"
+                                    style="color: rgb(180, 211, 83);">sub-heading</span><span
+                                    class="token tag attr-value punctuation" style="color: gray;">"</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain" style="color: white;">_</span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;/</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">h2</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;/</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">div</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"> </span><span
+                                    class="token tag punctuation" style="color: gray;">&lt;/</span><span
+                                    class="token tag" style="color: rgb(234, 108, 139);">body</span><span
+                                    class="token tag punctuation" style="color: gray;">&gt;</span><span
+                                    class="token plain"></span>
+                            </div>
+                            <div class="token-line"><span class="token plain"></span><span class="token tag punctuation"
+                                    style="color: gray;">&lt;/</span><span class="token tag"
+                                    style="color: rgb(234, 108, 139);">html</span><span class="token tag punctuation"
+                                    style="color: gray;">&gt;</span></div>
+
+                        </div>
+
+
+                    </div>
+
+                    <span>This Provided code contains classes & ids in &ltdiv&gt &lth1&gt and &lth2&gt tag. Which gives
+                        an idea about How can we use these tags, Classes and Ids.</span>
+                    <br>
+                    <br>
+                    Here's the Output:
+
+                    <div class="imgd">
+
+                        <img src="Images/Output_BH.png" alt="">
+                    </div>
+                </div>
+
+            </section>
 
         </div>
 
-        </div>
+
+
+
 
 
         <div id="Right_Hand_Navigation_Panel">
@@ -404,8 +567,9 @@
 
                 <div class="Category">
                     <div class="Course_Content_Titles">
-                        <a href="">Introduction</a>
-                        <a href="" id="Basics_Of_HTML">HTML Basics</a>
+                        <a href="" id="btn_Introduction">Introduction</a>
+                        <a href="" id="btn_Html_Basics">HTML Basics</a>
+                        <a href="" id="btn_Classes">Classes & IDs</a>
                         <a href="" id="Tables_in_HTML">HTML Tables</a>
                         <a href="" id="Forms_In_HTML">HTML Forms</a>
 
@@ -417,6 +581,7 @@
     </section>
 
     <script src="JS/Navigation_Script.js"></script>
+    <script src="js/Learn.js"></script>
 </body>
 
 </html>
