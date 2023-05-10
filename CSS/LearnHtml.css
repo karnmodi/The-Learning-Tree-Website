@@ -337,13 +337,14 @@ header {
 #Sec-1{
     display: flex;
     justify-content: flex-end;
+    background-color: var(--bg-Header-white);
 
 }
 
 #Right_Hand_Navigation_Panel{
     margin: 20px 20px 20px 30px;
     right: 0;
-    background-color: var(--bg-Header-white);
+    background-color: var(--bg-black);
     width: 250px;
     height: fit-content;
     padding: 20px 20px 20px 20px;
@@ -376,13 +377,13 @@ header {
 
 .Left_Hand_Content{
     margin: 20px 0px 40px 30px;
-    color: white;
+    color: var(--bg-black);
     left: 0;
     width: 1200px;
 }
 
 .Left_Hand_Content .Course_Header{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     margin: 20px 0px 30px 0;
     color: var(--bg-blue);
@@ -397,11 +398,13 @@ hr {
 
 .Left_Hand_Content .Content_Header{
     font-size: 30px;
-    margin : 15px 0 15px 0
+    margin : 15px 0 15px 0;
+    font-weight: 500;
 }
 
 .Left_Hand_Content .Content{
-    color: var(--bg-Header-white);
+    color: var(--bg-black);
+    margin: px 0;
 }
 
 .Code_Box {
@@ -409,53 +412,19 @@ hr {
     align-items: center;
     width: 100%;
     height: fit-content;
-    background-color: rgb(231,233,235);
+    background-color: var(--bg-Header-white);
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 20px;
 
 }
 
 
-.Code_Box span#Course_Name{
-    font-size: 90px;
-    font-weight: 600;
-    margin: 20px 0px 0px 30px;
-}
-
-
-.Code_Box .btns_Sec-2 a#Learn_HTML{
-    text-align: center;
-    padding: 10px;
-    background-color: var(--bg-blue);
-    color: var(--bg-Header-white);
-    margin-bottom: 10px;
-    border-radius: 15px;
-    text-decoration: none ;
-    font-weight: 600;
-}
-
-
-.Code_Box .Code_Preview{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    order: 1;
-    margin-left: 10px;
-}
-
-.Code_Box .Code_Preview .Code_Heading{
-    padding: 0px 0 10px 10px;
-    margin-top: 15px;
-    color: black;
-    font-size: 24px;
-    font-weight:500;
-}
-
-.Code_Box .Code_Preview .Code_Window{
+.Code_Box .Code_Window{
     width: 97%;
     margin: 0 10px 20px 10px;
     padding: 20px;
     height: fit-content;
-    background-color: white;
+    background-color: var(--bg-black);
     border-left: 5px solid var(--bg-blue);
 }
 
