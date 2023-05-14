@@ -493,19 +493,134 @@
     &lt;/html&gt;
 </pre>
                         </div>
-                        
+
+                        <br>
+                        <br>
+
+
+                    </div>
+
+                    <span>This Provided code contains a table which shows the Header row of Company, Contract and
+                        Country which is in &lt;th&gt; tag. and rest of the cells are in &lt;td&gt; tag. All the rows of
+                        the table are having &lt;tr&gt; tag which
+                        represent the rows of the Table. </span>
                     <br>
                     <br>
+
                     Here's the Output:
+                    <div class="imgd">
 
-                    
-                </div>
-                <div class="imgd">
-
-                    <img src="Images/TableOutput.png" alt="">
-                </div>
+                        <img src="Images/TableOutput1.png" alt="">
+                    </div>
                 </div>
             </section>
+
+            <section id="HTML_Forms">
+
+                <div class="Course_Header">
+                    <span>HTML Forms </span>
+                </div>
+
+                <div class="Content">
+                    <blockquote><span>HTML Forms allow web developers to create forms to get data from the User such as
+                            Username, Password, Text, Email, & many more.</span></blockquote>
+
+                    <br>
+                    <br>
+                    Inside the stylesheet, a class name is selected with the following syntax:
+
+                    <div class="Code_Box">
+
+                        <div class="Code_Window">
+                            <pre>
+&lt;style&gt;
+    .search-container {
+        float: right;
+    }
+                                    
+    button[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+                                    
+    button[type=clear] {
+        background-color: #ff0000;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+&lt;/style&gt;
+                                    </pre>
+
+                        </div>
+
+                    </div>
+
+
+                    Here is the Body Section mentioned below which is linked with Style.css
+
+                    <br>
+                    <br>
+
+                    <div class="Code_Box">
+                        <span style="font-weight: 500; font-size: 20px;">Example of HTML Table</span>
+                        <div class="Code_Window">
+                            <pre style="color: white;">
+&lt;body&gt;
+
+    &lt;div class="search-container"&gt;
+        &lt;form action="/search"&gt;
+            &lt;input type="text" placeholder="Search..."&gt;
+            &lt;button type="submit"&gt;Search&lt;/button&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+        &lt;form action="/submit-form" method="post"&gt;
+            &lt;label for="username">Username: &lt;/label>
+            &ltinput type="text" id="username" name="username" required>
+            
+            &lt;label for="password">Password: &lt;/label>
+            &lt;input type="password" id="password" name="password" required>
+                                
+            &lt;label for="email">Email: &lt;/label>
+            &ltinput type="email" id="email" name="email" required>
+                                
+            &lt;button type="submit">  Submit  &lt;/button>
+            &lt;button type="clear">  Clear  &lt;/button>
+        &lt;/form>
+&lt/body>
+</pre>
+                        </div>
+
+                        <br>
+                        <br>
+
+
+                    </div>
+
+                    <span>This code creates an HTML form that includes a search bar and input fields for a username,
+                        password, and email address. The search bar is placed in the top right corner of the page using
+                        CSS, and the form includes a "Submit" button to send the form data to a server, and a "Clear"
+                        button to reset the form. The form uses the "post" method to send data to the server and the
+                        "required" attribute to ensure that the username, password, and email fields are filled out
+                        before submitting the form. </span>
+                    <br>
+                    <br>
+
+                    Here's the Output:
+                    <div class="imgd">
+
+                        <img src="Images/Form_Output.png" alt="">
+                    </div>
+                </div>
+            </section>
+
         </div>
 
         <div id="Right_Hand_Navigation_Panel">
@@ -519,7 +634,8 @@
                         <a href="" id="btn_Html_Basics">HTML Basics</a>
                         <a href="" id="btn_Classes">Classes & IDs</a>
                         <a href="" id="btn_Html_Tables">HTML Tables</a>
-                        <a href="" id="Forms_In_HTML">HTML Forms</a>
+                        <a href="" id="btn_Html_Forms">HTML Forms</a>
+                        <a href="" id="btn_About_Us">About Us</a>
 
                     </div>
                 </div>
@@ -527,6 +643,47 @@
 
         </div>
     </section>
+
+    <Footer id="Footer">
+        <div class="Footer_Title">
+            <a href="">
+                About Us &nbsp
+            </a>
+            <span style="color:white"> | </span>
+            <a href="Homepage.html"> &nbsp THE LEARNING TREE</a>
+        </div>
+
+        <div class="Social_Icons">
+            <img src="Images/Google logo PNG.png" alt="">
+            <img src="Images/Facebook Logo PNG.png" alt="">
+            <img src="Images/Github Logo PNG.png" alt="">
+            <img src="images/Instagram PNG.png" alt="">
+            <!-- <img src="" alt=""> -->
+        </div>
+
+        <div class="Footer_Content">
+
+            <span>The Learning Tree(TLT) is a website dedicated to providing educational resources, Tutorial References
+                and tools like Exercises and Quizzez for individuals seeking to enhance their knowledge and skills.
+                With a wide range of courses and learning materials, it aims to foster personal and professional
+                growth.</span>
+        </div>
+
+        <div class="Like">
+            <i class="fa-solid fa-thumbs-up" id="Dark"></i>
+            <i class="fa-regular fa-thumbs-up" id="Light"></i>
+        </div>
+
+        <div class="Footer_Bottom">
+            <span>Copyright &copy 2023 | THE LEARNING TREE (TLT) </span>
+            <span id="Design_By">
+                Design By : <span style="color: rgb(55, 127, 208);"> Karan Modi </span> | <span
+                    style="color: rgb(55, 127, 208);"> Sheilla Kandie </span>
+            </span>
+        </div>
+
+
+    </Footer>
 
     <script src="JS/Navigation_Script.js"></script>
     <script src="js/Learn.js"></script>

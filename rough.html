@@ -1,28 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>My Form</title>
+	<style>
+		.search-container {
+			float: right;
+		}
+
+		button[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 8px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		button[type=clear] {
+			background-color: #ff0000;
+			color: white;
+			padding: 8px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
-    <table border="5px" style="text-align: center; ">
-        <tr style="background-color: gray; color: white;">
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-      </table>
+	<!-- Search bar -->
+	<div class="search-container">
+		<form action="/search">
+			<input type="text" placeholder="Search...">
+			<button type="submit">Search</button>
+		</form>
+	</div>
+	<!-- Form -->
+	<form action="/submit-form" method="post">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<button type="submit">Submit</button>
+		<button type="clear">Clear</button>
+	</form>
 </body>
 </html>

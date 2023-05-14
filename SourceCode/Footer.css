@@ -1,0 +1,102 @@
+:root{
+    --bg-blue: rgb(55, 127, 208);
+    --bg-blue2: rgb(97, 140, 190);
+
+    --bg-purple: #9763f6;
+    --bg-yellow: #FFF4A3;
+
+    --bg-green : #D9EEE1;
+
+    --bg-black : rgb(40,42,53);
+
+    --bg-yellow:rgb(255,244,163);
+
+    --bg-Header-white : #e7e7e7;
+}
+
+
+footer {
+    background-color: var(--bg-black);
+    height:450px;
+}
+
+footer .Footer_Title{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 80px;
+    padding-top: 50px;
+
+}
+
+footer .Footer_Title a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+footer .Footer_Title a:hover{
+    color: var(--bg-blue);
+}
+
+footer .Social_Icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    /* right: 50; */
+    padding-right: 100px;
+}
+
+footer .Social_Icons img{
+    width: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+footer .Social_Icons img:hover{
+    background-color: var(--bg-Header-white);
+    border-radius: 5px;
+}
+
+footer .Footer_Content{
+    justify-content: center;
+    text-align: center;
+    color: var(--bg-Header-white);
+    margin: 40px 80px 50px 80px;
+}
+
+footer .Like{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin-bottom: 50px;
+}
+
+footer .Like #Dark{
+    font-size: 50px;
+    color: var(--bg-blue);
+    display: none;
+    cursor: pointer;
+}
+
+footer .Like #Light{
+    font-size: 50px;
+    color: var(--bg-blue);
+    cursor: pointer;
+}
+
+footer .Footer_Bottom{
+    color: rgb(165, 165, 165); 
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+footer .Footer_Bottom #Design_By{
+    color: rgb(165, 165, 165); 
+    margin-left: 700px;
+    font-size: 15px;
+    
+}
