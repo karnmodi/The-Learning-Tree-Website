@@ -1,7 +1,7 @@
 const panel = document.getElementById("Right_Hand_Navigation_Panel");
 const panelTop = panel.offsetTop;
 const margin = 20;
-const margin_Bottom = 500;
+const margin_Bottom = 585;
 const footer = document.querySelector("footer");
 const footerTop = footer.offsetTop;
 const maxMove = footerTop - panelTop - margin_Bottom;
@@ -19,53 +19,43 @@ window.addEventListener('scroll', function() {
 
 
 
-const Btn_Introduction = document.getElementById("btn_Introduction");
+const Btn_Introduction_CSS = document.getElementById("btn_Introduction_CSS");
 
-Btn_Introduction.addEventListener("click", function(event) {
+Btn_Introduction_CSS.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("Introduction_Of_HTML");
+  const section = document.getElementById("Introduction_Of_CSS");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
 
-const Btn_Basics = document.getElementById("btn_Html_Basics");
+const Btn_Inline_CSS = document.getElementById("btn_Inline_CSS");
 
-Btn_Basics.addEventListener("click", function(event) {
+Btn_Inline_CSS.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("Basics_Of_HTML");
+  const section = document.getElementById("Inline_CSS");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
-const Btn_Classes = document.getElementById("btn_Classes");
+const Btn_Internal_CSS = document.getElementById("btn_Internal_CSS");
 
-Btn_Classes.addEventListener("click", function(event) {
+Btn_Internal_CSS.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("Classes_Ids");
+  const section = document.getElementById("Internal_CSS");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
-const Btn_Tables = document.getElementById("btn_Html_Tables");
+const Btn_External_CSS = document.getElementById("btn_External_CSS");
 
-Btn_Tables.addEventListener("click", function(event) {
+Btn_External_CSS.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("HTML_Tables");
-
-  section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-});
-
-const Btn_Forms = document.getElementById("btn_Html_Forms");
-
-Btn_Forms.addEventListener("click", function(event) {
-  event.preventDefault();
-
-  const section = document.getElementById("HTML_Forms");
+  const section = document.getElementById("External_CSS");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
