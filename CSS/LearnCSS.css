@@ -445,31 +445,23 @@ hr {
     border-radius: 15px;
 }
 
-#Classes_Ids .imgd{
+.imgd{
     width: 100%;
     height: 100%;
 }
 
-#Classes_Ids .imgd img{
+.imgd img{
     width: 1200px;
 }
 
-#HTML_Tables .imgd{
-    width: 100%;
+.imgt{
+    width: 200%;
     height: 100%;
 }
 
-#HTML_Tables .imgd img{
-    width: 1200px;
-}
-
-#HTML_Forms .imgd{
-    width: 100%;
-    height: 100%;
-}
-
-#HTML_Forms img{
-    width: 1200px;
+.imgt img{
+    width: max-content;
+    margin-left: 5000px;
 }
 
 footer {

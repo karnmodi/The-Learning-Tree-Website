@@ -1,7 +1,7 @@
 const panel = document.getElementById("Right_Hand_Navigation_Panel");
 const panelTop = panel.offsetTop;
 const margin = 20;
-const margin_Bottom = 585;
+const margin_Bottom = 580;
 const footer = document.querySelector("footer");
 const footerTop = footer.offsetTop;
 const maxMove = footerTop - panelTop - margin_Bottom;

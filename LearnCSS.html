@@ -279,7 +279,8 @@
                         <blockquote><span>Basically, CSS can be represent in many styles, Which are mentioned below
                                 <ul>
                                     <section id="Inline_CSS">
-                                        <li style="font-weight: 600; font-size: 24px; margin: 10px; color: Red;">INLINE CSS :
+                                        <li style="font-weight: 600; font-size: 24px; margin: 10px; color: Red;">INLINE
+                                            CSS :
                                         </li>
                                         <span>Inline CSS is used to style a specific HTML element. Add a style attribute
                                             to
@@ -328,7 +329,8 @@
                                     <hr>
 
                                     <section id="Internal_CSS">
-                                        <li style="font-weight: 600; font-size: 24px; margin-bottom: 10px; color: Red;">INTERNAL or
+                                        <li style="font-weight: 600; font-size: 24px; margin-bottom: 10px; color: Red;">
+                                            INTERNAL or
                                             EMBEDDED CSS :</li>
                                         <span>The Internal CSS has &lt;style&gt; tag in the &lt;head&gt;section of the
                                             HTML document. This CSS style is an effective way to style single pages.
@@ -383,7 +385,8 @@
                                     <hr>
 
                                     <section id="External_CSS">
-                                        <li style="font-weight: 600; font-size: 24px; margin-bottom: 10px; color: Red;">EXTERNAL CSS
+                                        <li style="font-weight: 600; font-size: 24px; margin-bottom: 10px; color: Red;">
+                                            EXTERNAL CSS
                                             :
                                         </li>
                                         <span>In external CSS, we link the web pages to the external .css file. It is
@@ -443,37 +446,165 @@
                             </span></blockquote>
                     </div>
                     <div class="Content">
-                        <span>So these are the Types of CSS which can design the components of HTML. Developers and in Big Projects, The
+                        <span>So these are the Types of CSS which can design the components of HTML. Developers and in
+                            Big Projects, The
                             External CSS Will be used the most.</span>
                     </div>
             </section>
             <hr>
-            
-            <section id="Basics_Of_HTML">
-                <div class="Course_Header"><span>Basics of HTML</span></div>
+
+            <section id="CSS_Margins">
+                <div class="Course_Header"><span>CSS Margins</span></div>
                 <div class="Course_Description">
-                    <blockquote>HTML Basics Includes details of div,
-                        Class,
-                        Id,
-                        and some tags which are useful in every HTML Code.</blockquote>
+                    <blockquote> <b>Margins are used to create space around elements, outside of any defined
+                            borders.</b>
+                    </blockquote>
                     <hr>
-                    <ol>
-                        <li>HTML uses tags to define elements within a webpage.</li>
-                        <li>Elements are the building blocks of HTML documents,
-                            made up of tags and their content.</li>
-                        <li>Attributes provide additional information about an element and are used within the opening
-                            tag of an element.</li>
-                        <li>HTML follows a hierarchical structure,
-                            with a top-level &lt<span style="color: red;">html</span>&gt element containing the &lt<span
-                                style="color: red;">head</span>&gt and &lt<span style="color: red;">body</span>&gt
-                            elements.</li>
-                        <li>A DTD declares the version of HTML being used,
-                            and comments can be used to annotate code. </li>
-                    </ol>
-                </div>
+                    <span>
+                        The CSS margin properties are used to create space around elements, outside of any defined
+                        borders.
+                    </span>
+                    <br>
+                    <br>
+                    <span>With CSS, you have full control over the margins. There are properties for setting the margin
+                        for each side of an element (top, right, bottom, and left). </span>
+
+                    <br>
+                    <br>
+
+                    <div class="Content_Header">
+                        <span>Margin - Individual Sides</span>
+                    </div>
+
+
+                    <div class="Content">
+                        <blockquote><span>CSS has properties for specifying the margin for each side of an element :
+                                <ul>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        margin-top</li>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        margin-right </li>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        margin-bottom</li>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        margin-left</li>
+                                </ul>
+
+                                <span>All the margin properties can have the following values :</span>
+                                <ul>
+                                    <li>auto - the browser calculates the margin</li>
+                                    <li>length - specifies a margin in px, pt, cm, etc.</li>
+                                    <li>% - specifies a margin in % of the width of the containing element</li>
+                                    <li>inherit - specifies that the margin should be inherited from the parent element
+                                    </li>
+                                </ul>
+
+                                <div class="Code_Box">
+
+                                    <blockquote><span style="font-weight: 600; font-size: 20px;">Example :</span><br>
+                                        <span>Set different margins for all four sides of a &lt;p&gt; element:</span>
+                                    </blockquote>
+
+                                    <div class="Code_Window">
+                                        <pre>
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}  
+                                    </pre>
+                                    </div>
+                                </div>
+
+
+                    </div>
+
+
+
             </section>
             <hr>
             <hr>
+
+            <section id="CSS_Padding">
+                <div class="Course_Header"><span>CSS Paddings</span></div>
+                <div class="Course_Description">
+                    <blockquote> <b>Padding is used to create space around an element's content, inside of any defined
+                            borders.</b>
+                    </blockquote>
+                    <br>
+                    <br>
+                    <span>With CSS, you have full control over the padding. There are properties for setting the padding
+                        for each side of an element (top, right, bottom, and left).</span>
+                    <hr>
+
+
+                    <div class="Content_Header">
+                        <span>Padding - Individual Sides</span>
+                    </div>
+
+
+                    <div class="Content">
+                        <blockquote><span>CSS has properties for specifying the padding for each side of an element :</span>
+                                <ul>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        padding-top</li>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        padding-right </li>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        padding-bottom</li>
+                                    <li
+                                        style="color: red; ;background-color:rgb(235, 203, 203); width: fit-content; padding: 5px; border-radius: 10px; margin: 10px;">
+                                        padding-left</li>
+                                </ul>
+
+                                <span>All the padding properties can have the following values :</span>
+                                <ul>
+                                    <li>length - specifies a padding in px, pt, cm, etc.</li>
+                                    <li>% - specifies a padding in % of the width of the containing element.</li>
+                                    <li>Finherit - specifies that the padding should be inherited from the parent
+                                        element.</li>
+                                </ul>
+
+                                <div class="Code_Box">
+
+                                    <blockquote><span style="font-weight: 600; font-size: 20px;">Example :</span><br>
+                                        <span>Set different padding for all four sides of a &lt;p&gt; element:</span>
+                                    </blockquote>
+
+                                    <div class="Code_Window">
+                                        <pre>
+p {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 80px;
+
+}  
+                                    </pre>
+                                    </div>
+                                </div>
+
+                                <br><br>Here's the Output:
+                                <div class="imgt" style="width: 100%; height: 100%;"><img src="Images/PaddingSS.png" alt="" style="width: 1200px;"></div>
+
+
+                    </div>
+
+
+
+            </section>
+            <hr>
+            <hr>
+
             <section id="Classes_Ids">
                 <div class="Course_Header"><span>Classes & Ids </span></div>
                 <div class="Content">
@@ -712,8 +843,10 @@
                         <a href="" id="btn_Inline_CSS">Inline CSS</a>
                         <a href="" id="btn_Internal_CSS">Internal CSS</a>
                         <a href="" id="btn_External_CSS">External CSS</a>
+                        <a href="" id="btn_CSS_Margin">CSS Margin</a>
                         <!-- <a href="" id="btn_Html_Forms">HTML Forms</a> -->
-                        <a href="" id="btn_About_Us">About Us</a></div>
+                        <a href="" id="btn_About_Us">About Us</a>
+                    </div>
                 </div>
             </div>
         </div>

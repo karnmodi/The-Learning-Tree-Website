@@ -60,6 +60,16 @@ Btn_External_CSS.addEventListener("click", function(event) {
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
+const Btn_CSS_Margin= document.getElementById("btn_CSS_Margin");
+
+Btn_CSS_Margin.addEventListener("click", function(event) {
+  event.preventDefault();
+
+  const section = document.getElementById("CSS_Margins");
+
+  section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+});
+
 const Btn_About_Us = document.getElementById("btn_About_Us");
 
 Btn_About_Us.addEventListener("click", function(event) {
