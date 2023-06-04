@@ -351,7 +351,7 @@ body{
     background-color: var(--bg-black);
     width: 250px;
     height: fit-content;
-    max-height: 650px;
+    max-height: 50px;
     padding: 20px 20px 20px 20px;
     border-radius: 15px;
     justify-content: flex-start;
@@ -455,13 +455,12 @@ hr {
 }
 
 .imgt{
-    width: 200%;
+    width: 100%;
     height: 100%;
 }
 
 .imgt img{
-    width: max-content;
-    margin-left: 5000px;
+    width: 80px;
 }
 
 footer {

@@ -1,0 +1,32 @@
+
+.ws-table-all {border-collapse:collapse;border-spacing:0;width:100%;display:table;border:1px solid #ccc}
+.ws-table-all tr {border-bottom:1px solid #ddd}
+.ws-table-all tr:nth-child(odd) {background-color:#fff}.ws-table-all tr:nth-child(even){background-color:#E7E9EB}
+.ws-table-all td,.ws-table-all th {padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.ws-table-all th:first-child, .ws-table-all td:first-child{padding-left:16px}
+
+
+.mystyle,.mystyle:hover {
+  background-color: #282A35!important;
+  color:white!important;
+}
+
+
+#myAccordion {
+  font-family: 'Source Sans Pro', sans-serif;
+  z-index: 1;
+  width:100%;
+  position:absolute;
+  display:none;
+  background-color:#E7E9EB;
+}
+
+#searchstring{
+  width: 1200px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+

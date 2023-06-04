@@ -1,7 +1,7 @@
 const panel = document.getElementById("Right_Hand_Navigation_Panel");
 const panelTop = panel.offsetTop;
 const margin = 20;
-const margin_Bottom = 760;
+const margin_Bottom = 680;
 const footer = document.querySelector("footer");
 const footerTop = footer.offsetTop;
 const maxMove = footerTop - panelTop - margin_Bottom;
@@ -19,73 +19,63 @@ window.addEventListener('scroll', function() {
 
 
 
-const Btn_Introduction_CSS = document.getElementById("btn_Introduction_CSS");
+const Btn_Body = document.getElementById("btn_Body");
 
-Btn_Introduction_CSS.addEventListener("click", function(event) {
+Btn_Body.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("Introduction_Of_CSS");
+  const section = document.getElementById("Body");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
 
-const Btn_Inline_CSS = document.getElementById("btn_Inline_CSS");
+const Btn_Div = document.getElementById("btn_Div");
 
-Btn_Inline_CSS.addEventListener("click", function(event) {
+Btn_Div.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("Inline_CSS");
+  const section = document.getElementById("Div");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
-const Btn_Internal_CSS = document.getElementById("btn_Internal_CSS");
+const Btn_HTag = document.getElementById("btn_HTag");
 
-Btn_Internal_CSS.addEventListener("click", function(event) {
+Btn_HTag.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("Internal_CSS");
+  const section = document.getElementById("HTAG");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
-const Btn_External_CSS = document.getElementById("btn_External_CSS");
+const Btn_Legend = document.getElementById("btn_Legend");
 
-Btn_External_CSS.addEventListener("click", function(event) {
+Btn_Legend.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("External_CSS");
+  const section = document.getElementById("Legend");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
-const Btn_CSS_Margin= document.getElementById("btn_CSS_Margin");
+const Btn_Ol= document.getElementById("btn_Ol");
 
-Btn_CSS_Margin.addEventListener("click", function(event) {
+Btn_Ol.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("CSS_Margins");
+  const section = document.getElementById("Ol");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
-const Btn_CSS_Padding= document.getElementById("btn_CSS_Padding");
+const Btn_Table= document.getElementById("btn_Table");
 
-Btn_CSS_Padding.addEventListener("click", function(event) {
+Btn_Table.addEventListener("click", function(event) {
   event.preventDefault();
 
-  const section = document.getElementById("CSS_Paddings");
-
-  section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-});
-
-const Btn_CSS_Text= document.getElementById("btn_CSS_Text");
-
-Btn_CSS_Text.addEventListener("click", function(event) {
-  event.preventDefault();
-
-  const section = document.getElementById("CSS_Text");
+  const section = document.getElementById("Table");
 
   section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
