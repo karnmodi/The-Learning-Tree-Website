@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn HTML | The Learning Tree (TLT)</title>
+    <title>THE LEARNING TREE TLT | Explore something new</title>
+
+    <link rel="stylesheet" href="CSS/Certificates.Css">
+    <link rel="stylesheet" href="SourceCode/Navigation_Bar.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -25,9 +29,10 @@
 
     <link rel="Logo-Fevicon" type="image/png" href="Images/Website Logo.png" />
 
-    <link rel="stylesheet" href="Navigation_Bar.css">
 </head>
+
 <body>
+
     <header>
         <div class="header_Left">
             <a href="#" class="Menu_btns">
@@ -65,12 +70,12 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
 
-            <a href="/About_Us.html" class="btn btn-link bg-purple" id="About_Us_Btn" style="user-select:none;">
+            <a href="About_Us.html" class="btn btn-link bg-purple" id="About_Us_Btn" style="user-select:none;">
                 About Us
             </a>
-            <div href="/Contact_Us.html" class="btn  bg-yellow" id="Careers_Btn" style="user-select:none;">
+            <a href="Contact_Us.html" class="btn  bg-yellow" id="Careers_Btn" style="user-select:none;">
                 Contact Us
-            </div>
+            </a>
 
 
             <div class="credentials btn btn-link bg-blue" id="credentials_Btns">
@@ -82,9 +87,6 @@
                 </a>
             </div>
 
-            <div class="Mobile_Menu-Container">
-
-            </div>
 
         </div>
     </header>
@@ -235,6 +237,56 @@
 
     </section>
 
-    <script src="/JS/Navigation_Script.js"></script>
+    <section class="Sec_Certi">
+        <h1>Certification</h1>
+
+
+        <P style="font-style: italic;" color=blue> Congratulations on completing our course! </P>
+        <P>We are pleased to present you with the following certificate:
+    
+            Certificate of Completion</br>
+    
+            Please feel free to download and print your certificate for your records.</P></br>
+    
+        <div class="Compartment">
+    
+            <div class="certificates">
+                <div class="certificate">
+                    <div class="Certi_Img"><img src="Images/Certificate 1.jpg" alt="Certificate 2"></div>
+                    <p class="certificate-title">HTML Course</p>
+                </div>
+    
+                <div class="certificate">
+                    <div class="Certi_Img"><img src="Images/Certificate 2.jpg" alt="Certificate 2"></div>
+                    <p class="certificate-title">CSS Course</p>
+                </div>
+            </div>
+    
+        </div>
+    
+    
+    
+        <p>We hope you found our course helpful and informative, and we welcome any feedback you may have.</p>
+    
+        <div class="Container">
+            <h1>Feedback Form</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/Navigation_Script.js"></script>
+
 </body>
+
 </html>
